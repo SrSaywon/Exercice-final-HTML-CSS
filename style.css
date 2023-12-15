@@ -1,13 +1,118 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Rethink Sans', sans-serif;;
 }
 
 header > img {
     width: 100%;
 }
 
-form {
+.white-fonts {
     position: absolute;
+    color: white;
     z-index: 999;
+    top: 70px;
+    left: 39%;
 }
+
+.white-fonts > div {
+    text-align: center;
+}
+.white-fonts > div > h1 {
+    font-size: 50px;
+}
+
+.containerForm {
+    background-color: rgba(211, 211, 211, 0.678);
+    width: 75%;
+    height: 75px;
+    position: absolute;
+    left: 12.5%;
+    top: 525px;
+    display: flex;
+    
+}
+
+.navInput {
+    width: 67%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.navInput > div {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.navInput > div > button {
+    width: 50px;
+    border : none;
+}
+
+#navButton {
+    width: 33%;
+    border: none;
+    background-color: rgb(66, 187, 112);
+    color: white;
+}
+
+select {
+    border-radius: 10px;
+}
+
+input {
+    border: none;
+    border-top-left-radius: 10px;
+    border-end-start-radius: 10px;
+}
+
+.inputH > button {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+body {
+    font-family: 'Rethink Sans', sans-serif;
+}
+.container {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+}
+
+h3, 
+p {
+    margin-bottom: 10px;
+}
+
+.VText {
+    align-items: center;
+    margin-top: 30px;
+}
+
+.VButton {
+    background-color: rgb(66, 187, 112);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+hr {
+    width: 60%;
+    margin:auto
+}
+
+.ImgBox {
+    display: flex;
+    margin-right: 50px;
+}
+
+.IBox {
+    align-items: center;
+    display: flex;
+}
+

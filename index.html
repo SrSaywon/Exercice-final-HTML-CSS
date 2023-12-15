@@ -5,21 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet Final</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&family=Rethink+Sans&family=Vina+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a6c393237d.js"></script>
 </head>
 <body>
     <header>
         <img src="./images/fond.jpg" alt="Image d'une Mercedes">
-        <div>
-            <h1>
-                
-            </h1>
+        <div class="white-fonts">
+            <div>
+                <h1>Bienvenue à bord</h1>
+                <p>Location de voiture 24h/24 et 7j/7</p>
+            </div>
         </div>
-        <form action="post">
-            <label for=""></label>
-            <input type="text">
+        <form action="post" class="containerForm">
+            <div class="navInput">
+                <div class="selectH">
+                    <label for="adresse"></label>
+                    <select name="adresse" id="adresse">
+                        <option value="">Adresse de départ</option>
+                        <option value="1">Agence de Lille</option>
+                        <option value="2">Pas le choix : Lille </option>
+                        <option value="3">Pas le choix : Lille </option>
+                        <option value="4">Pas le choix : Lille </option>
+                        <option value="5">Pas le choix : Lille </option>
+                    </select>
+                </div>
+                <div class="inputH">
+                    <label for="debut"></label>
+                    <input type="text" name="debut" id="debut" placeholder="Début de location">
+                    <button><i class="fa-solid fa-calendar-days"></i></button>
+                </div>
+                <div class="inputH">
+                    <label for="fin"></label>
+                    <input type="text" name="fin" id="fin" placeholder="Fin de location">
+                    <button><i class="fa-solid fa-calendar-days"></i></button>
+                </div>
+            </div>
+            <button type="submit" id="navButton">Valider ma recherche</button>
         </form>
     </header>
     <main>
+        <div class="container">
+            <div class="ImgBox">
+                <div class="IBox"><i class="i fa-solid fa-caret-left"></i></div>
+                <img src="./images/vehicule1.png" alt="Image de la Peugeot 208">
+                <div class="IBox"><i class="i fa-solid fa-caret-right"></i></div>
+                
+            </div>
+            <div class="VText">
+                <h3>Peugeot 208</h3>
+                <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0,5/km supplémentaire).</p>
+                <p>999 € - Agence de Paris</p>
+                <button class="VButton">Réserver et payer</button>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="ImgBox">
+                <div class="IBox"><i class="i fa-solid fa-caret-left"></i></div>
+                <img src="./images/vehicule2.png" alt="image de la Ford Focus">
+                <div class="IBox"><i class="i fa-solid fa-caret-right"></i></div>
+                
+            </div>
+            <div class="VText">
+                <h3>Ford Focus</h3>
+                <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0,5/km supplémentaire).</p>
+                <p>999 €</p>
+                <button class="VButton">Réserver et payer</button>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="ImgBox">
+                <div class="IBox"><i class="i fa-solid fa-caret-left"></i></div>
+                <img src="./images/vehicule3.png" alt="Image de la Audi A1">
+                <div class="IBox"><i class="i fa-solid fa-caret-right"></i></div>
+                
+            </div>
+            <div class="VText">
+                <h3>Audi A1</h3>
+                <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0,5/km supplémentaire).</p>
+                <p>1100€ - Agence de Paris</p>
+                <button class="VButton">Réserver et payer</button>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="ImgBox">
+                <div class="IBox"><i class="i fa-solid fa-caret-left"></i></div>
+                <img src="./images/vehicule4.png" alt="Image de l'Opel Mokka">
+                <div class="IBox"><i class="i fa-solid fa-caret-right"></i></div>
+                
+            </div>
+            <div class="VText">
+                <h3>Opel Mokka</h3>
+                <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0,5/km supplémentaire).</p>
+                <p>1100€ - Agence de Paris</p>
+                <button class="VButton">Réserver et payer</button>
+            </div>
+        </div>
+        
+        
 
     </main>
     <footer>
